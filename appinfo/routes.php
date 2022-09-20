@@ -45,6 +45,13 @@ return [
 			'verb' => 'GET'
 		],
 
+		// Embedded View
+		[
+			'name' => 'page#embedded_form_view',
+			'url' => '/embed/{hash}',
+			'verb' => 'GET'
+		],
+
 		// Internal views
 		[
 			'name' => 'page#views',
